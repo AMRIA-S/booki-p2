@@ -1,5 +1,203 @@
-@media screen (min-width:992px) and (max-width:1400px){
-	
+@media screen and (min-width:992px) and (max-width:1400px){	
+	/*menu*/
+	menu a:hover{padding-top: 0%;}
+	/*filtre*/
+	div.section_filtre{
+		justify-content: space-between;
+	}
+	strong.text_icon{
+		font-size:15px;
+		padding-right:5px;
+	}
+	i#icon {
+		font-size:15px;
+	}	
+	i#logo_infos{
+		padding: 5px 2px 1px 3px;
+	}
+	/*hebergement*/
+	h2.titre_hebergement{
+		font-size: 23px;
+	}
+	img.photo_hebergement{
+		height: 105px;
+	}
+	figcaption.legende_heberge{
+		font-size: 13px;
+	}
+	strong.titre_heberge{
+	    font-size: 15px;
+	    margin-top: 0px;
+	}
+	p.size_star{
+		font-size: 11px;
+	}
+	p.plus{
+		margin: 3% 0% 0% 2%;
+	}
+	/*populaire*/
+	section.section_populaire{
+		margin-left: 1%;
+	}
+	h2.titre_populaire{
+		margin: 8% 0% 6% 11%;
+		font-size: 22px;
+	}
+	i#bourse.{
+		float: right;
+		margin-right: 9%;
+		margin-top: 3px;
+	}
+	figure.figure_populaire{
+		height: 129px;
+	}
+	figcaption.legende_populaire{
+		font-size: 12px;
+		margin-top: 0px;
+		margin-right: 17px;
+	}
+	strong.titre_pop{
+		font-size: 15px;
+	}
+	p.nuit{
+		line-height: 4px;
+	}
+	p.etoile_bas1 p.etoile_bas2{
+		margin-top: 47px;
+	}
+	p.etoile_bas3{
+		margin-top: 50px;
+	}
+	/*activite*/
+	section.section_activite{
+		margin-top: 5%;
+	}
+	h3.titre_activite{
+		font-size: 27px;
+		margin-left: 3%;
+	}
+	img.photo_activite{
+		height: 365px;
+	}
+}	
+@media screen and (min-width:768px) and (max-width:991px) {
+	/*recherche*/
+	input#recherche{
+		width: 28%;
+		font-size: 18px;
+	}
+	input#submit{
+		width: 15%;
+	}
+	/*filtre*/
+	div.section_filtre {
+		justify-content: space-between;
+		margin-right: 6%;
+	}
+	button.boutton{
+		margin-left: 0px;
+		height: 44px;
+	}
+	.info{
+		font-size: 15px;
+	}
+	i#icon{
+		font-size:18px;
+		padding: 10px;
+	}
+	strong.text_icon{
+		font-size :18px;
+	}
+	i#logo_infos{
+		padding: 6px 3px 0px 4px;
+	}
+	/*flex hebergement/populaire*/
+	div.alignement_hp{
+		flex-direction:column;
+	}
+	/*hebergement*/
+	section.section_herbergement{
+		width:95%;
+	}
+	img.photo_hebergement{
+		height: 122px;
+	}
+	figcaption.legende_heberge{
+		font-size: 14px;
+	}
+	strong.titre_heberge{
+		font-size: 16px;
+	}
+	p.size_star{
+		font-size: 13px;
+	}
+	/*populaire*/
+	section.section_populaire{
+		width: 100%;
+		margin: 5% 0% 0% 0%;
+		padding-bottom: 4%;
+	}
+	div.populaire{
+		margin-top:5%;
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	h2.titre_populaire{
+		margin: 4% 0% 0% 4%;
+		font-size: 23px;
+	}
+	i#bourse{
+		margin-right: 6%;
+	}
+	figure.figure_populaire{
+		height: 142px;
+		width: 240px;
+		margin: 0%;
+	}
+	img.photo_populaire{
+		width: 40%;
+
+	}
+	figcaption.legende_populaire{
+		margin-left: 15px;
+		margin-right: 6px;
+		font-size: 13px;
+	}
+	strong.titre_pop{
+		margin-right: 0px;
+		font-size: 16px;
+	}
+	p.nuit{
+		line-height: 6px;
+	}
+	p.etoile_bas1, p.etoile_bas3{
+		margin-top: 56px;
+	}
+	p.etoile_bas2{
+		margin-top: 37px;
+	}
+	/*activite*/
+	h3.titre_activite{
+		margin: 6%;
+		margin-bottom: 4%;
+	}
+	article.article_activite {
+		width: 23%;
+	}
+	div.activite_marseille{
+		justify-content: space-between;
+	}
+	figure.figure_activite{
+		margin: 0px;
+	}
+	img.photo_activite{
+	height: 312px;
+	}
+	.legende_activite{
+		padding: 4% 0% 4% 8%;
+		font-size: 12px;
+	}
 }
 
 
@@ -8,7 +206,7 @@
 	src: url(police/Raleway.ttf);
 }
 
-/*en tête*/
+/*en tete*/
 .logo{
 	width: 5%;
 	height: 5%;
@@ -48,12 +246,16 @@ a{
 
 
 /*Formulaire*/
+.sous_titre{
+	line-height: 0px;
+}
 .section_formulaire{
 	padding-top: 4%;
 }
 .formulaire{
 	display: flex;
 	flex-direction: row;
+	margin-top: 2%;
 }
 .loupe{
 	border: 1px solid #f2f2f2;
@@ -66,7 +268,7 @@ a{
 }
 #recherche{
 	height: 55px;
-	width: 15%;
+	width: 13%;
 	padding-left: 1%;
 	font-size: 18px;
 }
@@ -75,6 +277,7 @@ a{
 	background-color: #0065fc;
 	border-radius: 0px 15px 15px 0px;
 	padding: 15px;
+	width: 9%;
 	color: #ffffff;
 	font-size: 18px;
 	cursor: pointer;
@@ -85,30 +288,16 @@ a{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-top: 2%;
-	margin-left: 0.5%;
-	margin-right: 34%;
-    justify-content: space-between;
+	margin: 2% 32% 0% 0.5%;
+	justify-content: space-between;
 }
 .filtre{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 }
 .boutton {
 	background-color: white;
 	border: 2px solid #d9d9d9;
-	height: 50px;
-	width: 20%;
-	margin-left: 60px;
-	border-radius: 25px;
-	cursor: pointer;
-}
-.boutton_famille {
-	background-color: white;
-	border: 2px solid #d9d9d9;
-	height: 50px;
-	width: 12%;
-	margin-left: 60px;
 	border-radius: 25px;
 	cursor: pointer;
 }
@@ -116,13 +305,14 @@ a{
 	background-color:#DEEBFF
 }
 
-#boutton_filtre {
+#icon{
 	color: #0065FC;
 	padding: 10px;
+	font-size: 22px;
 }
-.text_filtre{
+.text_icon{
 	padding-right: 10px;
-	font-size: 17px;
+	font-size: 22px;
 	font-family: raleway;
 }
 #logo_infos{
@@ -142,10 +332,11 @@ a{
 .alignement_hp{
 	display: flex;
     flex-direction: row;
+	justify-content: center;
 }
 
 
-/*section hébergement*/
+/*section hebergement*/
 .section_herbergement{
 	background-color: #f2f2f2;
 	border-radius: 20px;
@@ -153,12 +344,10 @@ a{
 	padding: 0% 2% 0% 2%;
 	width: 60%;
 }
-
 .titre_hebergement{
 	margin:4% 0% 1% 2%;
 	font-size: 27px;
 }
-
 .articles{
 	display: flex;
 	flex-wrap: wrap;
@@ -207,6 +396,10 @@ a{
 	background-color: #f2f2f2;
 	margin-left: 2%;
 }
+.populaire {
+    display: flex;
+    flex-direction: column;
+}
 .titre_populaire{
 	margin: 8% 0% 6% 8%;
 	font-size: 27px;
@@ -214,6 +407,7 @@ a{
 #bourse{
 	float: right;
 	margin-right: 9%;
+	margin-top: 3px;
 }
 .figure_populaire{
 	display: flex;
@@ -222,7 +416,6 @@ a{
 	border: #ffffff solid 5px;
 	border-radius: 25px;
 	box-shadow: 0px 3px 15px darkgray;
-	margin-bottom: 9%;
 	height: 155px;
 }
 .photo_populaire {
@@ -238,17 +431,17 @@ a{
 	margin-right: 22px;
 	font-size: 21px;
 }
-.etoile_bas{
+.etoile_bas1 .etoile_bas2{
 	margin-top: 25px;
 }
-.etoile_fin_bas{
+.etoile_bas3{
 	margin-top: 50px;
 }
 
 
 
 
-/*Activité Marseille*/
+/*Activite Marseille*/
 .section_activite{
 	margin-top: 3%;
 }
@@ -259,6 +452,7 @@ a{
 .activite_marseille{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 .article_activite{
 	width: 30%;
@@ -274,7 +468,7 @@ a{
 	border-radius: 25px 25px 0px 0px;
 	object-fit: cover;
 }
-.legende{
+.legende_activite{
 	padding: 4% 0% 4% 6%;
 }
 

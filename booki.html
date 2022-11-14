@@ -8,10 +8,13 @@
 	<link rel="icon" sizes="16x16" href="images/logo/favicon.png">
 	<title>Booki</title>
 </head>
-<body>
 
+
+<body>
 	<header>
-		<img class="logo" src="images/logo/booki@3x.png" alt="logo_booki">
+		<div class="logo_entete">
+			<img class="logo" src="images/logo/booki@3x.png" alt="logo_booki">
+		</div>
 		<nav>
 			<ul class="menu">
 				<li><a href="#ancre_hebergement" class="heberge">Hébergements</a></li>
@@ -23,7 +26,7 @@
 	<main>
 		<section class="section_formulaire">
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-			<p>En plein centre-ville ou en pleine nature</p>
+			<p class="sous_titre">En plein centre-ville ou en pleine nature</p>
 
 			<form method="post" action="#">
 				<div class="formulaire">
@@ -35,20 +38,20 @@
 				<div class="section_filtre">
 					<p class="filtre">Filtres</p>
 					<button class="boutton">
-						<i class="fa-solid fa-money-bill-wave" id="boutton_filtre"></i><strong class="text_filtre">Économique</strong>
-					</button>
-					<button class="boutton_famille">
-						<i class="fa-solid fa-person" id="boutton_filtre"></i><strong class="text_filtre">Familial</strong>
+						<i class="fa-solid fa-money-bill-wave" id="icon"></i><strong class="text_icon">Économique</strong>
 					</button>
 					<button class="boutton">
-						<i class="fa-solid fa-heart" id="boutton_filtre"></i><strong class="text_filtre">Romantique</strong>
+						<i class="fa-solid fa-person" id="icon"></i><strong class="text_icon">Familial</strong>
 					</button>
 					<button class="boutton">
-						<i class="fa-solid fa-dog" id="boutton_filtre"></i><strong class="text_filtre">Animaux autorisés</strong>
+						<i class="fa-solid fa-heart" id="icon"></i><strong class="text_icon">Romantique</strong>
+					</button>
+					<button class="boutton">
+						<i class="fa-solid fa-dog" id="icon"></i><strong class="text_icon">Animaux autorisés</strong>
 					</button>
 				</div>
 			</form>
-			<p><i class="fa-solid fa-info" id="logo_infos"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+			<p class="info"><i class="fa-solid fa-info" id="logo_infos"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 		</section>
 
 		
@@ -62,7 +65,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Auberge La Canebière</strong></p>
 								<p>Nuit à partir de 25<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>
 						</figure>
 					</a></article>
@@ -72,7 +75,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Hôtel du port</strong></p>
 								<p>Nuit à partir de 52<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>	
 						</figure>
 					</a></article>
@@ -82,7 +85,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Hôtel Les Mouettes</strong></p>
 								<p>Nuit à partir de 76<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>
 						</figure>
 					</a></article>
@@ -92,7 +95,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Hôtel de la mer</strong></p>
 								<p>Nuit à partir de 46<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>
 						</figure>
 					</a></article>
@@ -102,7 +105,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Auberge Le Panier</strong></p>
 								<p>Nuit à partir de 23<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>
 						</figure>
 					</a></article>
@@ -112,7 +115,7 @@
 							<figcaption class="legende_heberge">
 								<p><strong class="titre_heberge">Hôtel Chez Amina</strong></p>
 								<p>Nuit à partir de 96<strong>€</strong></p>
-								<p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+								<p class="size_star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
 							</figcaption>
 						</figure>
 					</a></article>
@@ -124,42 +127,44 @@
 
 			<section class="section_populaire">
 				<h2 class="titre_populaire">Les plus populaires<i id="bourse" class="fa-solid fa-chart-line"></i></h2>
-					<aside class="aside_populaire">
-						<a href="#">
-							<figure class="figure_populaire">
-								<img class="photo_populaire" src="images/populaire/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo">
-								<figcaption class="legende_populaire">
-									<p><strong class="titre_pop">Hôtel Le soleil du matin</strong></p>
-									<p>Nuit à partir de 128<strong>€</strong></p>
-									<p class="etoile_bas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
-								</figcaption>
-							</figure>
-						</a>
-					</aside>
-					<aside class="aside_populaire">
-						<a href="#">
-							<figure class="figure_populaire">
-								<img class="photo_populaire" src="images/populaire/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo">
-								<figcaption class="legende_populaire">
-									<p><strong class="titre_pop">Chambres d'hôtes Au coeur de l'eau</strong></p>
-									<p>Nuit à partir de 71<strong>€</strong></p>
-									<p class="etoile_bas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
-								</figcaption>
-							</figure>
-						</a>
-					</aside>
-					<aside class="aside_populaire">
-						<a href="#">
-							<figure class="figure_populaire">
-								<img class="photo_populaire" src="images/populaire/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo">
-								<figcaption class="legende_populaire">	
-									<p><strong class="titre_pop">Hôtel Bleu et Blanc</strong></p>
-									<p>Nuit à partir de 68<strong>€</strong></p>
-									<p class="etoile_fin_bas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
-								</figcaption>
-							</figure>
-						</a>
-					</aside>
+					<div class="populaire">
+						<aside>
+							<a href="#">
+								<figure class="figure_populaire">
+									<img class="photo_populaire" src="images/populaire/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo">
+									<figcaption class="legende_populaire">
+										<p><strong class="titre_pop">Hôtel Le soleil du matin</strong></p>
+										<p class="nuit">Nuit à partir de 128<strong>€</strong></p>
+										<p class="etoile_bas1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+									</figcaption>
+								</figure>
+							</a>
+						</aside>
+						<aside>
+							<a href="#">
+								<figure class="figure_populaire">
+									<img class="photo_populaire" src="images/populaire/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo">
+									<figcaption class="legende_populaire">
+										<p><strong class="titre_pop">Chambres d'hôtes Au coeur de l'eau</strong></p>
+										<p class="nuit">Nuit à partir de 71<strong>€</strong></p>
+										<p class="etoile_bas2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+									</figcaption>
+								</figure>
+							</a>
+						</aside>
+						<aside>
+							<a href="#">
+								<figure class="figure_populaire">
+									<img class="photo_populaire" src="images/populaire/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo">
+									<figcaption class="legende_populaire">	
+										<p><strong class="titre_pop">Hôtel Bleu et Blanc</strong></p>
+										<p class="nuit">Nuit à partir de 68<strong>€</strong></p>
+										<p class="etoile_bas3"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star" id="star"></i></p>
+									</figcaption>
+								</figure>
+							</a>
+						</aside>
+					</div>
 			</section>
 		</div>		
 
@@ -171,7 +176,7 @@
 					<a href="#">
 						<figure class="figure_activite">
 							<img src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="photo_activite" alt="photo_populaire">
-							<figcaption class="legende">Vieux-Port</figcaption>
+							<figcaption class="legende_activite">Vieux-Port</figcaption>
 						</figure>
 					</a>	
 				</article>
@@ -179,7 +184,7 @@
 					<a href="#">
 						<figure class="figure_activite">
 							<img src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="photo_activite" alt="photo_populaire">
-							<figcaption class="legende">Fort de Pomègues</figcaption>
+							<figcaption class="legende_activite">Fort de Pomègues</figcaption>
 						</figure>
 					</a>	
 				</article>
@@ -187,7 +192,7 @@
 					<a href="#">
 						<figure class="figure_activite">
 							<img src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="photo_activite" alt="photo_populaire">
-							<figcaption class="legende">Parc national des Calanques</figcaption>
+							<figcaption class="legende_activite">Parc national des Calanques</figcaption>
 						</figure>
 					</a>	
 				</article>
@@ -195,7 +200,7 @@
 					<a href="#">
 						<figure class="figure_activite">
 							<img src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="photo_activite" alt="photo_populaire">
-							<figcaption class="legende">Notre-Dame-de-la-Garde</figcaption>
+							<figcaption class="legende_activite">Notre-Dame-de-la-Garde</figcaption>
 						</figure>
 					</a>	
 				</article>
