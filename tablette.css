@@ -1,0 +1,56 @@
+@media all and (max-width:991px) {
+	div.section_filtre {
+		margin-top: 20px;
+	}
+	button.boutton {
+		margin: 15px;
+	}
+	p.info {
+		font-size: 13px;
+	}
+	i#logo_infos {
+		padding: 8px 3px 0px 4px;
+	}
+	div.aligner_populaire_hebergement {
+		flex-direction: column;
+	}
+	section.section_herbergement {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	section.section_populaire {
+		width: 100%;
+	}
+	div.populaire {
+		flex-direction: row;
+	}
+	article.article_populaire {
+		width: 32%;
+	}
+	img.photo_populaire {
+		width: 36%;
+	}
+	p.tarif_nuit_populaire {
+		font-size: 11px;
+	}
+	article.article_activite {
+		width: 20%;
+	}
+	figure.cards_activite {
+		height: 260px;
+	}
+	img.photo_activite {
+		height: 207px;
+	}
+	figcaption.contenu_cards_activite {
+		font-size: 12px;
+		word-break: break-word;
+		padding: 14px 22px;
+		font-weight: bold;
+	}
+	
+	section.section_footer {
+		width: 33%;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,304 @@
+
+	@font-face {
+		font-family: raleway;
+		src: url(police/Raleway.ttf);
+	}
+
+	/*en tete*/
+	.logo {
+		width: 70px;
+		float: left;
+	}
+	.menu {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		list-style-type: none;
+	}
+	.menu a:hover {
+		color: #0065fc;
+		border-top: #0065fc solid 2px;
+		padding-top: 22px;
+	}
+	.heberge {
+		margin-right: 67px;
+	}
+	.activite {
+		margin-right: 37px;
+	}
+
+
+	/*corps du texte*/
+	body {
+		font-family: raleway;
+		margin: 24px 24px 0px 24px;
+	}
+	.fa-solid {
+		color: #0065FC;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+
+	/*Formulaire*/
+	.sous_titre_h1 {
+		line-height: 0px;
+	}
+	.section_formulaire {
+		padding-top: 23px;
+	}
+	.formulaire {
+		display: flex;
+		flex-direction: row;
+		margin-top: 30px;
+	}
+	.loupe {
+		border: 1px solid #f2f2f2;
+		border-radius: 15px 0px 0px 15px;
+		padding: 16px 18px 15px 18px;
+		background-color: #f2f2f2;
+	}
+	#location {
+		color: black;
+	}
+	#recherche {
+		padding-left: 12px;
+		font-size: 18px;
+	}
+	#submit {
+		border: solid 1px #0065fc;
+		background-color: #0065fc;
+		border-radius: 0px 15px 15px 0px;
+		padding: 15px;
+		color: #ffffff;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	/*Filtre du formulaire*/
+	.section_filtre {
+		display: flex;
+		flex-direction: row;
+		margin-top: 27px;
+		align-items: center;
+	}
+	.filtre {
+		font-weight: bold;
+		font-size: 22px;
+	}
+	.btn_filtre {
+		background-color: white;
+		border: 2px solid #d9d9d9;
+		border-radius: 25px;
+		cursor: pointer;
+		display: flex;
+		flex-direction: row;
+		padding: 10px;
+		margin: 20px;
+		gap: 10px;
+		align-items: center;
+	}
+	.btn_filtre:hover {
+		background-color:#DEEBFF
+	}
+
+	.icon {
+		color: #0065FC;
+	}
+	.text_icon {
+		font-family: raleway;
+	}
+	#logo_infos {
+		border: #d9d9d9 solid 1px;
+		border-radius: 25px;
+		height: 24px;
+		width: 24px;
+		text-align: center;
+		padding: 6px 3px 2px 4px;
+		margin: 1%;
+		color: #0065FC;
+	}
+
+
+
+	/*flex hebergement et populaire*/
+	.aligner_populaire_hebergement {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
+	/*section hebergement*/
+	.section_herbergement {
+		background-color: #f2f2f2;
+		border-radius: 20px;
+		width: 62%;
+	}
+	.titre_section_hebergement {
+		margin: 25px 0px 18px 26px;
+	}
+	.hebergement {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.article_hebergement {
+		width: 30%;
+		margin-bottom: 24px;
+	}
+	.cards_hebergement {
+		background-color: #ffffff;
+		border: 5px solid #ffffff;
+		border-radius: 25px;
+		box-shadow: 0px 3px 15px darkgrey;
+		margin: 0px;
+	}
+	.photo_hebergement {
+		width: 100%;
+		height: 105px;
+		border-radius: 20px 20px 0px 0px;
+		object-fit: cover;
+	}
+	.contenu_cards_hebergement {
+		display: flex;
+		flex-direction: column;
+		padding-left: 10px;
+		gap: 6px;
+	}
+	.contenu .titre_cards_hebergement p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.etoiles_gris {
+		color: #f2f2f2;
+	}
+	.afficher_plus {
+		margin: 0px 0px 25px 18px;
+		font-size: 21px;
+	}
+
+
+
+	/*section populaire*/
+	.section_populaire {
+		width: 35%;
+		border-radius: 20px;
+		background-color: #f2f2f2;
+	}
+	.titre_populaire {
+		margin: 30px 23px 0px;
+	}
+	#icon_graphique {
+		float: right;
+		margin-top: 3px;
+	}
+	.populaire {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		margin: 15px;
+	}
+	.cards_populaire {
+		display: flex;
+		flex-direction: row;
+		background-color: #ffffff;
+		border: #ffffff solid 5px;
+		border-radius: 25px;
+		box-shadow: 0px 3px 15px darkgrey;
+		height: 134px;
+		margin: 0px
+	}
+	.photo_populaire {
+		width: 35%;
+		border-radius: 20px 0px 0px 20px;
+		object-fit: cover;
+	}
+	.contenu_cards_populaire {
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 7px;
+		font-size: 13px;
+	}
+	.titre_cards_populaire {
+		margin: 0px;
+	}
+	.tarif_nuit_populaire {
+		margin: 0px;
+	}
+	.etoile_populaire {
+		margin-top: auto;
+		margin-bottom: 0px;
+	}
+
+
+
+
+	/*Activite Marseille*/
+	.section_activite {
+		margin-top: 40px;
+	}
+	.titre_activite {
+		margin-top: 22px;
+	}
+	.activite_marseille {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.article_activite {
+		width: 22%;
+	}
+	.cards_activite {
+		border-radius: 25px;
+		margin: 0px;
+		background-color: #ffffff;
+		box-shadow: 0px 3px 15px darkgray;
+	}
+	.photo_activite {
+		width: 100%;
+		height: 300px;
+		border-radius: 25px 25px 0px 0px;
+		object-fit: cover;
+	}
+	.titre_cards_activite {
+		padding: 12px;
+		font-size: 13px;
+	}
+
+
+
+	/*pieds de page*/
+	footer {
+		background-color: #f2f2f2;
+		flex-direction: row;
+		display: flex;
+		margin-top: 5%;
+		width: 100%;
+		height: 225px;
+	}
+	.section_footer {
+		width: 100%;
+	}
+	.titre_footer {
+		padding-left: 58px;
+		margin-top: 40px;
+	}
+	.menu_footer {
+		line-height: 35px;
+	}
+	.menu_footer ul {
+		list-style-type: none;
+		padding-left: 60px;
+	}
+	.menu_footer a {
+		color: black;
+		text-decoration: none;
+	}
+	.menu_footer a:hover {
+		color: blue;
+	}
