@@ -5,26 +5,28 @@
 	}
 
 	/*en tete*/
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between
+	}
 	.logo {
 		width: 70px;
 		float: left;
 	}
 	.menu {
 		display: flex;
-		justify-content: flex-end;
-		align-items: center;
 		list-style-type: none;
+		flex-direction: row;
+	}
+	.menu li {
+		width: 140px;
+    	text-align: center;
 	}
 	.menu a:hover {
 		color: #0065fc;
 		border-top: #0065fc solid 2px;
-		padding-top: 22px;
-	}
-	.heberge {
-		margin-right: 67px;
-	}
-	.activite {
-		margin-right: 37px;
+		padding-top: 38px;
 	}
 
 
@@ -132,7 +134,7 @@
 
 
 	/*section hebergement*/
-	.section_herbergement {
+	.section_hebergement {
 		background-color: #f2f2f2;
 		border-radius: 20px;
 		width: 62%;
@@ -140,7 +142,7 @@
 	.titre_section_hebergement {
 		margin: 25px 0px 18px 26px;
 	}
-	.hebergement {
+	.heberge {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -169,7 +171,7 @@
 		padding-left: 10px;
 		gap: 6px;
 	}
-	.contenu .titre_cards_hebergement p {
+	.contenu_cards_hebergement  p, .contenu_cards_hebergement h4{
 		margin: 0px;
 		font-size: 14px;
 	}
