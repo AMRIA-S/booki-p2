@@ -1,6 +1,6 @@
-@media all and (min-width: 768px) and (max-width: 991px) {
+@media all and (min-width: 769px) and (max-width: 991px) {
 	button.btn_filtre {
-		margin: 15px;
+		margin: 12px;
 	}
 	p.info {
 		font-size: 13px;
@@ -42,7 +42,8 @@
 	h5.titre_cards_activite {
 		font-size: 12px;
 		word-break: break-word;
-		padding: 14px 22px;
+		padding: 5px 0px 0px 16px;
+    	margin: 0px;
 		font-weight: bold;
 	}
 	

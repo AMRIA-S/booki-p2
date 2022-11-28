@@ -4,7 +4,8 @@
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="deskop.css">
-	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="C:\Users\amria\OneDrive\Documents\projet-booki\tablette.css">
+	<link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 991px)" href="C:Users\amria\OneDrive\Documents\projet-booki\tablette.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="C:/Users/amria/OneDrive/Documents/projet-booki/mobile.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<link rel="icon" sizes="16x16" href="images/logo/favicon.png">
 	<title>Booki</title>
@@ -18,8 +19,8 @@
 		</div>
 		<nav>
 			<ul class="menu">
-				<li><a href=".hebergement" class="hebergement">Hébergements</a></li>
-				<li><a href=".activites" class="activite">Activités</a></li>								
+				<li><a href=".hebergement">Hébergements</a></li>
+				<li><a href=".activites">Activités</a></li>								
 			</ul>			
 		</nav>
 	</header>
@@ -31,25 +32,28 @@
 
 			<form method="post" action="#">
 				<div class="formulaire">
-					<label for="recherche" class="loupe"><i class="fa-sharp fa-solid fa-location-dot" id="location"></i></label>
+					<label for="recherche" class="localisation"><i class="fa-sharp fa-solid fa-location-dot" id="location"></i></label>
 					<input type="search" name="recherche" id="recherche" placeholder="Marseille, France">
 					<input type="submit" id="submit" value="Rechercher">
+					<i class="fa-solid fa-magnifying-glass loupe"></i>
 				</div>
 
 				<div class="section_filtre">
 					<p class="filtre">Filtres</p>
-					<button class="btn_filtre">
-						<i class="fa-solid fa-money-bill-wave icon"></i><strong class="text_icon">Économique</strong>
-					</button>
-					<button class="btn_filtre">
-						<i class="fa-solid fa-person icon"></i><strong class="text_icon">Familial</strong>
-					</button>
-					<button class="btn_filtre">
-						<i class="fa-solid fa-heart icon"></i><strong class="text_icon">Romantique</strong>
-					</button>
-					<button class="btn_filtre">
-						<i class="fa-solid fa-dog icon"></i><strong class="text_icon">Animaux autorisés</strong>
-					</button>
+					<div class="section_btn_filtre">
+						<button class="btn_filtre">
+							<i class="fa-solid fa-money-bill-wave icon"></i><strong class="text_icon">Économique</strong>
+						</button>
+						<button class="btn_filtre">
+							<i class="fa-solid fa-person icon"></i><strong class="text_icon">Familial</strong>
+						</button>
+						<button class="btn_filtre">
+							<i class="fa-solid fa-heart icon"></i><strong class="text_icon">Romantique</strong>
+						</button>
+						<button class="btn_filtre">
+							<i class="fa-solid fa-dog icon"></i><strong class="text_icon">Animaux autorisés</strong>
+						</button>
+					</div>
 				</div>
 			</form>
 			<p class="info"><i class="fa-solid fa-info" id="logo_infos"></i>Plus de 500 logements sont disponibles dans cette ville</p>

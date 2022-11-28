@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+    body {
+		margin: 0px
+	}
+	header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    img.logo {
+        margin: 26px;
+    }
+	.menu li {
+        width: 250px;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+ }
+    .menu {
+        justify-content: center;
+        padding-left: 0px;
+    }
+	.menu li:hover {
+		border-bottom: #0065fc solid 2px;
+		padding-bottom: 20px;
+	}
+    .menu a:hover {
+        border-top: none;
+    }
+    div.section_filtre {
+	    flex-direction: column;
+	    align-items: flex-start;
+    }
+    div.section_btn_filtre {
+        flex-wrap: wrap;
+    }
+    button.btn_filtre {
+        margin: 0px 20px 15px 0px;
+        width: 190px;
+        padding: 16px;
+    }
+    i.icon {
+        font-size: 22px;
+    }
+    input#submit {
+        display: none;
+    }
+    i.loupe {
+        display: block;
+    }
+	section.section_formulaire {
+		margin-left: auto;
+		margin-right: auto;
+		width: 450px;
+	}
+	
+    div.aligner_populaire_hebergement {
+		flex-direction: column-reverse;
+	}
+	section.section_hebergement {
+		width: 100%;
+		background-color: white;
+	}
+	div.heberge {
+		flex-direction: column;
+		align-content: center;
+	}
+	img.photo_hebergement {
+		height: 153px;
+	}
+	figcaption.contenu_cards_hebergement {
+		gap: 10px;
+		padding: 12px;
+	}
+	article.article_hebergement {
+		width: 90%;
+	}
+	section.section_populaire {
+		width: 100%;
+		border-radius: 0px;
+	}
+	h2.titre_section_hebergement {
+		margin: 30px;
+	}
+	p.afficher_plus {
+		display: none;
+	}
+	h2.titre_populaire {
+		margin: 21px;
+	}
+	figure.cards_populaire {
+		height: 168px;
+	}
+	figcaption.contenu_cards_populaire {
+	font-size: 20px;
+	padding: 10px 10px 10px 20px;
+	}
+	section.section_activite {
+		margin: 20px;
+	}
+    div.activite_marseille {
+		flex-direction: column;
+	}
+	article.article_activite {
+		width: 100%;
+		margin-bottom: 32px;
+	}
+	img.photo_activite {
+		height: 196px;
+	}
+	h5.titre_cards_activite {
+		margin: 0px;
+	}
+	footer {
+		flex-direction: column;
+	}
+	h6.titre_footer {
+		padding-left: 28px;
+	}
+	nav.menu_footer ul{
+		padding-left: 28px;
+	}
+}
