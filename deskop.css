@@ -246,10 +246,7 @@
 		gap: 7px;
 		font-size: 13px;
 	}
-	.titre_cards_populaire {
-		margin: 0px;
-	}
-	.tarif_nuit_populaire {
+	.titre_cards_populaire, .tarif_nuit_populaire {
 		margin: 0px;
 	}
 	.etoile_populaire {
