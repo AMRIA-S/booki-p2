@@ -8,19 +8,27 @@
     }
     img.logo {
         margin: 26px;
-    }
+    }	
+	nav {
+		width: 100%;
+	}
 	.menu li {
-        width: 250px;
         border-bottom: 2px solid #f2f2f2;
         padding-bottom: 20px;
- }
+		width: 50%;
+ 	}
+	.menu a:hover {
+		color : blue;
+	}
     .menu {
         justify-content: center;
         padding-left: 0px;
     }
 	.menu li:hover {
 		border-bottom: #0065fc solid 2px;
-		padding-bottom: 20px;
+	}
+	.menu li:hover a {
+		color: #0065fc;
 	}
     .menu a:hover {
         border-top: none;
@@ -50,8 +58,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 450px;
-	}
-	
+	}	
     div.aligner_populaire_hebergement {
 		flex-direction: column-reverse;
 	}
