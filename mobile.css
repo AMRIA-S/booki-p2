@@ -48,6 +48,9 @@
     i.icon {
         font-size: 22px;
     }
+	input#recherche {
+		width: 60%;
+	}
     input#submit {
         display: none;
     }
