@@ -41,13 +41,16 @@
         flex-wrap: wrap;
     }
     button.btn_filtre {
-        margin: 0px 20px 15px 0px;
-        width: 190px;
+        margin: 0px 5px 15px 0px;
+        width: 143px;
         padding: 16px;
     }
     i.icon {
-        font-size: 22px;
+        font-size: 15px;
     }
+	strong.text_icon {
+		font-size: 9px;
+	}
 	input#recherche {
 		width: 60%;
 	}
@@ -58,9 +61,8 @@
         display: block;
     }
 	section.section_formulaire {
-		margin-left: auto;
-		margin-right: auto;
-		width: 450px;
+		padding-left: 16px;
+		padding-right: 16px;
 	}	
     div.aligner_populaire_hebergement {
 		flex-direction: column-reverse;
@@ -100,8 +102,8 @@
 		height: 168px;
 	}
 	figcaption.contenu_cards_populaire {
-	font-size: 20px;
-	padding: 10px 10px 10px 20px;
+		font-size: 20px;
+		padding: 10px 10px 10px 20px;
 	}
 	section.section_activite {
 		margin: 20px;
