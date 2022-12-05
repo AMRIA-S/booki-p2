@@ -212,6 +212,9 @@
 		margin-left: 30px;
 		margin-top: 0px;
 	}
+	.afficher_plus a:hover {
+		color: #0065fc;
+	}
 
 
 
