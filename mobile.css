@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
 		margin: 0px
 	}
@@ -41,9 +41,9 @@
         flex-wrap: wrap;
     }
     button.btn_filtre {
-        margin: 0px 5px 15px 0px;
-        width: 143px;
-        padding: 16px;
+        margin: 0px 11px 15px 0px;
+        width: 133px;
+        padding: 17px 12px;
     }
     i.icon {
         font-size: 15px;
